@@ -26,15 +26,14 @@ h1 strong{
 }
 
 .swiper-slide:nth-child(1) figure img {
-    max-width: 300px;
+    max-width: 50%;
 }
 
 figure {
     
 }
 figure img {
-    min-width: 200px;
-    max-width: 220px;
+    width: 40%;
 }
 
 figcaption {
@@ -78,5 +77,8 @@ figcaption {
     }
     .playlist-code img {
         width: 72% !important;
+    }
+    figure img {
+        width: 60%;
     }
 }
