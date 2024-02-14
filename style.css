@@ -1,0 +1,74 @@
+body {
+    color: rgb(1, 1, 45);
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    height: 100vh;
+}
+
+main > section {
+    background: linear-gradient(179deg, rgb(253 252 252) 0%, rgb(243 243 242) 50%), rgb(234 230 235) 100%
+}
+
+h1 {
+    font-family: "Clicker Script", cursive;
+    line-height: 3rem;
+}
+
+h1 strong{
+    color: #a50000;
+}
+
+.swiper-slide:nth-child(1) figure img {
+    max-width: 300px;
+}
+
+figure {
+    
+}
+figure img {
+    min-width: 200px;
+    max-width: 220px;
+}
+
+figcaption {
+    font-size: .8rem;
+    color: #a50000;
+    text-align: center;
+}
+
+.small-note {
+    font-size: .8rem;
+}
+.small-note span {
+    color: rgb(165, 0, 0);
+    font-size: .5rem;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: rgb(165, 0, 0);
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    main > section {
+        height: 90vh;
+    }
+    .text p {
+        font-size: .9rem;
+    }
+    .text p br {
+        display: none;
+    }
+
+    .swiper-slide:nth-child(1) figure img {
+        max-width: 100%;
+    }
+    .playlist-code img {
+        width: 72% !important;
+    }
+}
