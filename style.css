@@ -57,6 +57,12 @@ figcaption {
     }
     main > section {
         height: 90vh;
+        
+    }
+
+    .swiper-slide {
+        overflow-y: auto;
+        padding: 40px 0;
     }
     .text p {
         font-size: .9rem;
